@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blue Horizon Boat Tours | Daily Cruises & Private Charters</title>
+    <meta name="description" content="Blue Horizon Boat Tours offers daily sightseeing cruises and private charters. Sunset cruises, wildlife tours, and custom events departing daily." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <meta property="og:title" content="Blue Horizon Boat Tours" />
+    <meta property="og:description" content="Daily cruises and private charters. Book your harbor sightseeing or sunset cruise today." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Blue Horizon Boat Tours",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop",
+      "url": "https://example.com",
+      "telephone": "+1-555-012-3456",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1 Marina Way",
+        "addressLocality": "Harbor City",
+        "addressRegion": "CA",
+        "postalCode": "90000",
+        "addressCountry": "US"
+      },
+      "openingHours": "Mo-Su 08:00-20:00",
+      "sameAs": [
+        "https://instagram.com/bluehorizon",
+        "https://facebook.com/bluehorizon"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">Blue Horizon</a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-controls="menu" aria-expanded="false">☰</button>
+          <ul id="menu" class="menu">
+            <li><a href="#tours">Cruises</a></li>
+            <li><a href="#charters">Charters</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn btn-primary" href="#booking">Book</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Hero">
+        <div class="hero-bg" role="img" aria-label="Boat at sea"></div>
+        <div class="container hero-content">
+          <h1>Daily Cruises & Private Charters</h1>
+          <p>Harbor tours, sunset sails, and custom events—departing daily. Easy online booking.</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary">Book a Cruise</a>
+            <a href="#charters" class="btn btn-ghost">Request a Charter</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="tours" class="section">
+        <div class="container">
+          <h2 class="section-title">Popular Cruises</h2>
+          <div class="cards">
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Harbor sightseeing" />
+              <div class="card-body">
+                <h3>Harbor Sightseeing</h3>
+                <p>90-minute narrated cruise of landmarks and local wildlife.</p>
+                <div class="meta">
+                  <span>Daily • 10:00, 13:00, 15:00</span>
+                  <span>From $45 adult</span>
+                </div>
+                <button class="btn btn-secondary" data-book-tour="Harbor Sightseeing">Book</button>
+              </div>
+            </article>
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1453831362806-3d5577f014a4?q=80&w=1600&auto=format&fit=crop" alt="Sunset cruise" />
+              <div class="card-body">
+                <h3>Sunset Cruise</h3>
+                <p>Golden hour on the water with music and refreshments.</p>
+                <div class="meta">
+                  <span>Daily • 18:00</span>
+                  <span>From $55 adult</span>
+                </div>
+                <button class="btn btn-secondary" data-book-tour="Sunset Cruise">Book</button>
+              </div>
+            </article>
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1500417148159-68083bd7333a?q=80&w=1600&auto=format&fit=crop" alt="Wildlife watch" />
+              <div class="card-body">
+                <h3>Wildlife Watch</h3>
+                <p>Two-hour eco-tour to spot dolphins, sea lions, and birds.</p>
+                <div class="meta">
+                  <span>Sat–Sun • 09:00</span>
+                  <span>From $65 adult</span>
+                </div>
+                <button class="btn btn-secondary" data-book-tour="Wildlife Watch">Book</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="charters" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Private Charters</h2>
+          <p class="section-lead">Perfect for corporate outings, weddings, birthdays, and group adventures. Flexible itineraries and catering available.</p>
+          <div class="charter-grid">
+            <div class="charter">
+              <h3>Event Charter</h3>
+              <ul>
+                <li>Up to 60 guests</li>
+                <li>2–4 hours</li>
+                <li>Onboard PA and music</li>
+                <li>Catering partners</li>
+              </ul>
+              <a href="#charter-form" class="btn btn-secondary">Request Quote</a>
+            </div>
+            <div class="charter">
+              <h3>Fishing Charter</h3>
+              <ul>
+                <li>Up to 12 guests</li>
+                <li>Half or full day</li>
+                <li>Licensed captain & crew</li>
+                <li>Gear available</li>
+              </ul>
+              <a href="#charter-form" class="btn btn-secondary">Request Quote</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fleet" class="section">
+        <div class="container">
+          <h2 class="section-title">Our Fleet</h2>
+          <div class="cards">
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?q=80&w=1600&auto=format&fit=crop" alt="MV Blue Horizon" />
+              <div class="card-body">
+                <h3>MV Blue Horizon</h3>
+                <p>65-foot catamaran • 60 passengers • Indoor lounge & open deck</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop" alt="Sea Star" />
+              <div class="card-body">
+                <h3>Sea Star</h3>
+                <p>38-foot sportfisher • 12 passengers • Perfect for private trips</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Today’s Departures</h2>
+          <div class="schedule">
+            <div class="schedule-row">
+              <span>Harbor Sightseeing</span>
+              <span>10:00</span>
+              <span>13:00</span>
+              <span>15:00</span>
+            </div>
+            <div class="schedule-row">
+              <span>Sunset Cruise</span>
+              <span>18:00</span>
+              <span class="muted">—</span>
+              <span class="muted">—</span>
+            </div>
+            <div class="schedule-row">
+              <span>Wildlife Watch</span>
+              <span>09:00</span>
+              <span class="muted">—</span>
+              <span class="muted">—</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section">
+        <div class="container">
+          <h2 class="section-title">Guest Reviews</h2>
+          <div class="quotes">
+            <figure>
+              <blockquote>Beautiful boat and friendly crew. The sunset was unreal!</blockquote>
+              <figcaption>— Jamie R.</figcaption>
+            </figure>
+            <figure>
+              <blockquote>Great value and super easy booking. We saw dolphins!</blockquote>
+              <figcaption>— Alex T.</figcaption>
+            </figure>
+            <figure>
+              <blockquote>Our corporate charter was seamless. Highly recommend.</blockquote>
+              <figcaption>— Priya S.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Book a Cruise</h2>
+          <form id="booking-form" class="form" novalidate>
+            <div class="form-row">
+              <label for="tour">Cruise</label>
+              <select id="tour" name="tour" required>
+                <option value="">Select a cruise</option>
+                <option>Harbor Sightseeing</option>
+                <option>Sunset Cruise</option>
+                <option>Wildlife Watch</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="date">Date</label>
+              <input id="date" name="date" type="date" required />
+            </div>
+            <div class="form-row">
+              <label for="time">Time</label>
+              <select id="time" name="time" required>
+                <option value="">Select a time</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>13:00</option>
+                <option>15:00</option>
+                <option>18:00</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="guests">Guests</label>
+              <input id="guests" name="guests" type="number" min="1" max="60" value="2" required />
+            </div>
+            <div class="form-row">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Reserve Seats</button>
+              <p id="booking-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+
+          <h3 id="charter-form" class="section-subtitle">Request a Private Charter</h3>
+          <form id="request-form" class="form" novalidate>
+            <div class="form-row">
+              <label for="type">Charter type</label>
+              <select id="type" name="type" required>
+                <option value="">Choose</option>
+                <option>Event Charter</option>
+                <option>Fishing Charter</option>
+                <option>Custom</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="date2">Preferred date</label>
+              <input id="date2" name="date2" type="date" required />
+            </div>
+            <div class="form-row">
+              <label for="guests2">Estimated guests</label>
+              <input id="guests2" name="guests2" type="number" min="1" max="120" required />
+            </div>
+            <div class="form-row">
+              <label for="name2">Name</label>
+              <input id="name2" name="name2" type="text" required />
+            </div>
+            <div class="form-row">
+              <label for="email2">Email</label>
+              <input id="email2" name="email2" type="email" required />
+            </div>
+            <div class="form-row">
+              <label for="notes">Notes</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Tell us about your event"></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-secondary" type="submit">Request Quote</button>
+              <p id="request-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <h2 class="section-title">FAQ</h2>
+          <details>
+            <summary>What should I bring?</summary>
+            <p>Light jacket, sunscreen, and a camera. Non-glass beverages welcome.</p>
+          </details>
+          <details>
+            <summary>What is the cancellation policy?</summary>
+            <p>Free changes or cancellations up to 24 hours before departure.</p>
+          </details>
+          <details>
+            <summary>Are children allowed?</summary>
+            <p>Yes. Children under 3 ride free with an adult.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Contact & Location</h2>
+          <div class="contact-grid">
+            <div>
+              <p><strong>Blue Horizon Boat Tours</strong><br/>1 Marina Way, Harbor City, CA 90000</p>
+              <p><a href="tel:+15550123456">(555) 012-3456</a><br/><a href="mailto:hello@example.com">hello@example.com</a></p>
+              <p>Open daily 8am–8pm</p>
+            </div>
+            <div class="map-embed" aria-label="Map placeholder">
+              <div class="map-placeholder">Map preview</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Blue Horizon Boat Tours</p>
+        <nav aria-label="Footer">
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a href="#booking">Book</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
